@@ -7,7 +7,12 @@ pipeline {
                 sh 'python3 -m venv pyats'
                 sh 'source pyats/bin/activate'
             }
-        }                
+        }
+        stage('Install Dependencies') {
+            steps {
+                sh 'pip install netmiko'
+            }
+        }                        
         stage('List files in Directory') {
             steps {
                 echo 'Confirm required files are cloned'
