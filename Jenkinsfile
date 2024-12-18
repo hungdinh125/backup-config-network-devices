@@ -8,8 +8,9 @@ pipeline {
             }
         }
         stage('Start the backup of configuration') {
-            echo 'Backing up config of network devices'
-            sh 'python3 backup-config.py'
+            steps {
+                echo 'Backing up config of network devices'
+                sh 'python3 backup-config.py'
         }
     }
     post {
