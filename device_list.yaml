@@ -1,0 +1,386 @@
+---
+
+devices:
+ - vnhchm01as01:
+    device_type: cisco_ios
+    ip: 10.148.255.100
+    username: d.dinh
+    password: T@0khongbiet042024
+    host: vnhchm01as01
+    read_timeout_override: 60
+
+ - tlbkok01as01:
+    device_type: cisco_ios
+    ip: 10.135.253.1
+    username: d.dinh
+    password: T@0khongbiet042024
+    host: tlbkok01as01
+    read_timeout_override: 60
+
+ - twtaip01as01:
+    device_type: cisco_ios
+    ip: 10.132.253.1
+    username: d.dinh
+    password: T@0khongbiet042024
+    host: twtaip01as01
+    read_timeout_override: 60
+
+ - twtaic01as01:
+    device_type: cisco_ios
+    ip: 10.140.253.1
+    username: d.dinh
+    password: T@0khongbiet042024
+    host: twtaic01as01
+    read_timeout_override: 60
+
+ - cnhong01as01:
+    device_type: cisco_ios
+    ip: 10.124.253.1
+    username: d.dinh
+    password: T@0khongbiet042024
+    host: cnhong01as01
+    read_timeout_override: 60
+
+ - inhdrb01cr01:
+    device_type: cisco_ios
+    ip: 10.150.253.1
+    username: d.dinh
+    password: T@0khongbiet042024
+    host: inhdrb01cr01
+    read_timeout_override: 60
+
+ - inmumb01as01:
+    device_type: cisco_ios
+    ip: 10.151.253.1
+    username: d.dinh
+    password: T@0khongbiet042024
+    host: inmumb01as01
+    read_timeout_override: 60
+
+ - inmumb01as02:
+    device_type: cisco_ios
+    ip: 10.151.253.2
+    username: d.dinh
+    password: T@0khongbiet042024
+    host: inmumb01as02
+    read_timeout_override: 60
+
+ - inpune01as01:
+    device_type: cisco_ios
+    ip: 10.153.253.1
+    username: d.dinh
+    password: T@0khongbiet042024
+    host: inpune01as01
+    read_timeout_override: 60
+
+ - inhdrb02cr01:
+    device_type: cisco_ios
+    ip: 10.153.253.1
+    username: d.dinh
+    password: T@0khongbiet042024
+    host: inhdrb02cr01
+    read_timeout_override: 60
+
+ - jposka01as01:
+    device_type: cisco_ios
+    ip: 10.138.253.1
+    username: d.dinh
+    password: T@0khongbiet042024
+    host: jposka01as01
+    read_timeout_override: 60
+
+ - jptkyo01cr01:
+    device_type: cisco_ios
+    ip: 10.121.253.1
+    username: d.dinh
+    password: T@0khongbiet042024
+    host: jptkyo01cr01
+    read_timeout_override: 60
+
+ - jpykhm01cr01:
+    device_type: cisco_ios
+    ip: 10.143.253.1
+    username: d.dinh
+    password: T@0khongbiet042024
+    host: jpykhm01cr01
+    read_timeout_override: 60
+
+ - jpykhm01as01:
+    device_type: cisco_ios
+    ip: 10.143.253.2
+    username: d.dinh
+    password: T@0khongbiet042024
+    host: jpykhm01as01
+    read_timeout_override: 60
+
+ - jpykhm01as02:
+    device_type: cisco_ios
+    ip: 10.143.253.3
+    username: d.dinh
+    password: T@0khongbiet042024
+    host: jpykhm01as02
+    read_timeout_override: 60
+
+ - krseul01as01:
+    device_type: cisco_ios
+    ip: 10.128.253.1
+    username: d.dinh
+    password: T@0khongbiet042024
+    host: krseul01as01
+    read_timeout_override: 60
+
+ - ausydn01as01:
+    device_type: cisco_ios
+    ip: 10.126.253.1
+    username: d.dinh
+    password: T@0khongbiet042024
+    host: ausydn01as01
+    read_timeout_override: 60
+
+ - ausydn02as01:
+    device_type: cisco_ios
+    ip: 10.144.253.1
+    username: d.dinh
+    password: T@0khongbiet042024
+    host: ausydn02as01
+    read_timeout_override: 60
+
+ - sgsing01cr01:
+    device_type: cisco_ios
+    ip: 10.127.253.1
+    username: d.dinh
+    password: T@0khongbiet042024
+    host: sgsing01cr01
+    read_timeout_override: 60
+
+ - sgsing01as01:
+    device_type: cisco_ios
+    ip: 10.127.253.2
+    username: d.dinh
+    password: T@0khongbiet042024
+    host: sgsing01as01
+    read_timeout_override: 60
+
+ - cnwhan01as01:
+    device_type: cisco_ios
+    ip: 10.134.253.1
+    username: d.dinh
+    password: T@0khongbiet042024
+    host: cnwhan01as01
+    read_timeout_override: 60
+
+ - cnshan02cr01:
+    device_type: cisco_ios
+    ip: 10.122.253.1
+    username: d.dinh
+    password: T@0khongbiet042024
+    host: cnshan02cr01
+    read_timeout_override: 60
+
+ - cnshan02as03:
+    device_type: cisco_ios
+    ip: 10.122.253.2
+    username: d.dinh
+    password: T@0khongbiet042024
+    host: cnshan02as03
+    read_timeout_override: 60
+
+ - cnshan02as06:
+    device_type: cisco_ios
+    ip: 10.122.253.3
+    username: d.dinh
+    password: T@0khongbiet042024
+    host: cnshan02as06
+    read_timeout_override: 60
+
+ - cnhngz01as01:
+    device_type: cisco_ios
+    ip: 10.137.253.1
+    username: d.dinh
+    password: T@0khongbiet042024
+    host: cnhngz01as01
+    read_timeout_override: 60
+
+ - cngngz01as03:
+    device_type: cisco_ios
+    ip: 10.123.253.1
+    username: d.dinh
+    password: T@0khongbiet042024
+    host: cngngz01as03
+    read_timeout_override: 60
+
+ - cnchen01as01:
+    device_type: cisco_ios
+    ip: 10.131.253.1
+    username: d.dinh
+    password: T@0khongbiet042024
+    host: cnchen01as01
+    read_timeout_override: 60
+
+ - cnbjng01as01:
+    device_type: cisco_ios
+    ip: 10.120.253.1
+    username: d.dinh
+    password: T@0khongbiet042024
+    host: cnbjng01as01
+    read_timeout_override: 60
+
+ - cnchen02cr01:
+    device_type: cisco_ios
+    ip: 10.133.253.1
+    username: d.dinh
+    password: T@0khongbiet042024
+    host: cnchen02cr01
+    read_timeout_override: 60
+
+ - cnchen02as01:
+    device_type: cisco_ios
+    ip: 10.133.253.2
+    username: d.dinh
+    password: T@0khongbiet042024
+    host: cnchen02as01
+    read_timeout_override: 60
+
+ - cnchen02as02:
+    device_type: cisco_ios
+    ip: 10.133.253.3
+    username: d.dinh
+    password: T@0khongbiet042024
+    host: cnchen02as02
+    read_timeout_override: 60
+
+ - cnchen02as03:
+    device_type: cisco_ios
+    ip: 10.133.253.4
+    username: d.dinh
+    password: T@0khongbiet042024
+    host: cnchen02as03
+    read_timeout_override: 60
+
+ - cnchen02as04:
+    device_type: cisco_ios
+    ip: 10.133.253.5
+    username: d.dinh
+    password: T@0khongbiet042024
+    host: cnchen02as04
+    read_timeout_override: 60
+
+ - cnchen02as05:
+    device_type: cisco_ios
+    ip: 10.133.253.6
+    username: d.dinh
+    password: T@0khongbiet042024
+    host: cnchen02as05
+    read_timeout_override: 60
+
+ - cnchen02as06:
+    device_type: cisco_ios
+    ip: 10.133.253.7
+    username: d.dinh
+    password: T@0khongbiet042024
+    host: cnchen02as06
+    read_timeout_override: 60
+
+ - cnzyng02cr01:
+    device_type: cisco_ios
+    ip: 10.146.103.107
+    username: d.dinh
+    password: T@0khongbiet042024
+    host: cnzyng02cr01
+    read_timeout_override: 60
+
+ - cnzyng02as001:
+    device_type: cisco_ios
+    ip: 10.146.103.109
+    username: d.dinh
+    password: T@0khongbiet042024
+    host: cnzyng02as001
+    read_timeout_override: 60
+
+ - cnzyng02as011:
+    device_type: cisco_ios
+    ip: 10.146.103.122
+    username: d.dinh
+    password: T@0khongbiet042024
+    host: cnzyng02as011
+    read_timeout_override: 60
+
+ - cnzyng02as101:
+    device_type: cisco_ios
+    ip: 10.146.103.110
+    username: d.dinh
+    password: T@0khongbiet042024
+    host: cnzyng02as101
+    read_timeout_override: 60
+
+ - cnzyng02as111:
+    device_type: cisco_ios
+    ip: 10.146.103.123
+    username: d.dinh
+    password: T@0khongbiet042024
+    host: cnzyng02as111
+    read_timeout_override: 60
+
+ - cnzyng02as112:
+    device_type: cisco_ios
+    ip: 10.146.103.249
+    username: d.dinh
+    password: T@0khongbiet042024
+    host: cnzyng02as112
+    read_timeout_override: 60
+
+ - cnzyng02as211:
+    device_type: cisco_ios
+    ip: 10.146.103.124
+    username: d.dinh
+    password: T@0khongbiet042024
+    host: cnzyng02as211
+    read_timeout_override: 60
+
+ - cnzyng02as301:
+    device_type: cisco_ios
+    ip: 10.146.103.113
+    username: d.dinh
+    password: T@0khongbiet042024
+    host: cnzyng02as301
+    read_timeout_override: 60
+
+ - cnzyng02as311:
+    device_type: cisco_ios
+    ip: 10.146.103.125
+    username: d.dinh
+    password: T@0khongbiet042024
+    host: cnzyng02as311
+    read_timeout_override: 60
+
+ - cnzyng02as312:
+    device_type: cisco_ios
+    ip: 10.146.103.126
+    username: d.dinh
+    password: T@0khongbiet042024
+    host: cnzyng02as312
+    read_timeout_override: 60
+
+ - cnzyng02as321:
+    device_type: cisco_ios
+    ip: 10.146.103.136
+    username: d.dinh
+    password: T@0khongbiet042024
+    host: cnzyng02as321
+    read_timeout_override: 60
+
+ - cnzyng02as401:
+    device_type: cisco_ios
+    ip: 10.146.103.115
+    username: d.dinh
+    password: T@0khongbiet042024
+    host: cnzyng02as401
+    read_timeout_override: 60
+
+ - cnzyng02as501:
+    device_type: cisco_ios
+    ip: 10.146.103.116
+    username: d.dinh
+    password: T@0khongbiet042024
+    host: cnzyng02as501
+    read_timeout_override: 60

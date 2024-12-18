@@ -1,0 +1,7 @@
+write memory
+copy running-config startup-config
+
+copy nvram:startup-config ftp://apacftp:P%40ssw0rd@10.133.10.115/Backup_configuration/{{ device_name }}_bkp_{{ current_date }}
+
+
+exit
