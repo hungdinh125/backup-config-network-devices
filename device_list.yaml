@@ -384,3 +384,43 @@ devices:
     password: T@0khongbiet042024
     host: cnzyng02as501
     read_timeout_override: 60
+
+ - sgsing01wc01:
+    device_type: cisco_ios
+    ip: 10.127.230.5
+    username: d.dinh
+    password: T@0khongbiet042024
+    host: sgsing01wc01
+    read_timeout_override: 60
+
+ - jptkyo01wc01:
+    device_type: cisco_ios
+    ip: 10.121.230.9
+    username: d.dinh
+    password: T@0khongbiet042024
+    host: jptkyo01wc01
+    read_timeout_override: 60
+
+ - inhdrb02wc01:
+    device_type: cisco_ios
+    ip: 10.152.230.5
+    username: d.dinh
+    password: T@0khongbiet042024
+    host: inhdrb02wc01
+    read_timeout_override: 60
+
+ - cnzyng02wc01:
+    device_type: cisco_ios
+    ip: 10.146.103.119
+    username: d.dinh
+    password: T@0khongbiet042024
+    host: cnzyng02wc01
+    read_timeout_override: 60
+
+ - cnchen02wc01:
+    device_type: cisco_ios
+    ip: 10.133.246.5
+    username: d.dinh
+    password: T@0khongbiet042024
+    host: cnchen02wc01
+    read_timeout_override: 60
