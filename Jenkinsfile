@@ -10,7 +10,7 @@ pipeline {
         }
         stage('Install Dependencies') {
             steps {
-                sh 'pip install netmiko paramiko cryptography'
+                sh 'pip install --upgrade netmiko paramiko cryptography'
             }
         }                        
         stage('List files in Directory') {
