@@ -1,14 +1,6 @@
 ---
 
 devices:
- - ausydn01er01:
-    device_type: cisco_ios
-    ip: 10.126.255.3
-    username: d.dinh
-    password: T@0khongbiet042024
-    host: ausydn01er01
-    read_timeout_override: 60
-
  - cnwhan01er01:
     device_type: cisco_ios
     ip: 10.134.255.3
